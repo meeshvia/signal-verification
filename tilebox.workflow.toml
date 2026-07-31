@@ -1,0 +1,19 @@
+[workflow]
+slug = "signal-verification-5y9aK2ydM1f76n"
+root = "."
+runner = "signal_verification.runner:runner"
+
+[build]
+include = [
+  "pyproject.toml",
+  "uv.lock",
+  "signal_verification/**",
+]
+exclude = [
+  ".venv/**",
+  "outputs/**",
+  "**/__pycache__/**",
+  "**/*.pyc",
+  ".pytest_cache/**",
+]
+use_gitignore = true
