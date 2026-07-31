@@ -37,7 +37,7 @@ tilebox workflow run signal-verification
 
 ## How it works
 
-### Scene discovery (Tilebox only)
+### Scene discovery
 
 The workflow queries two Tilebox datasets using a single `TILEBOX_API_KEY`:
 
