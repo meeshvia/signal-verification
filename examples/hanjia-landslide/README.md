@@ -10,6 +10,9 @@ buildings, killing 51 people with 10 still missing.
 **Source:** [Reuters](https://www.reuters.com/world/asia-pacific/southwest-china-landslide-leaves-51-dead-10-missing-2026-07-30/),
 [EOS Landslide Blog](https://eos.org/thelandslideblog/17-july-2026-landslide-at-hanjia-1)
 
+<img width="540" height="220" alt="Screenshot 2026-07-31 at 1 57 38 PM" src="https://github.com/user-attachments/assets/f5a63692-5ac7-44fa-bc90-afcdb577bfd5" />
+
+
 ## Results
 
 ### Before / After comparison
