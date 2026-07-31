@@ -1,0 +1,153 @@
+{
+  "event": {
+    "title": "Hanjia landslide \u2014 Pengshui County",
+    "event_date": "2026-07-17T00:00:00+00:00",
+    "description": "Rockslope failure on Wujiang River at Hanjia, Pengshui County, Chongqing, China. 51 dead, 10 missing. Coordinates: 29.27760N 108.16604E",
+    "aoi": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            108.126,
+            29.238
+          ],
+          [
+            108.206,
+            29.238
+          ],
+          [
+            108.206,
+            29.318
+          ],
+          [
+            108.126,
+            29.318
+          ],
+          [
+            108.126,
+            29.238
+          ]
+        ]
+      ]
+    }
+  },
+  "search_parameters": {
+    "search_start": "2026-06-01T00:00:00+00:00",
+    "search_end": "2026-07-31T00:00:00+00:00",
+    "optical_scene_count": 5,
+    "sar_scene_count": 0
+  },
+  "scenes": {
+    "optical": [
+      {
+        "time": "2026-07-08T03:40:11.077000+00:00",
+        "phase": "BEFORE EVENT",
+        "coverage": 1.0,
+        "cloud_cover": 38.031143,
+        "item_ids": [
+          "S2A_T49RBN_20260708T033155_L2A",
+          "S2A_T48RYT_20260708T033155_L2A"
+        ]
+      },
+      {
+        "time": "2026-07-11T03:39:55.004000+00:00",
+        "phase": "BEFORE EVENT",
+        "coverage": 1.0,
+        "cloud_cover": 34.919155,
+        "item_ids": [
+          "S2B_T49RBN_20260711T033801_L2A",
+          "S2B_T48RYT_20260711T033801_L2A"
+        ]
+      },
+      {
+        "time": "2026-07-16T03:39:57.037000+00:00",
+        "phase": "BEFORE EVENT",
+        "coverage": 1.0,
+        "cloud_cover": 56.402934,
+        "item_ids": [
+          "S2C_T49RBN_20260716T033934_L2A",
+          "S2C_T48RYT_20260716T033934_L2A"
+        ]
+      },
+      {
+        "time": "2026-07-21T03:39:56.370000+00:00",
+        "phase": "AFTER EVENT",
+        "coverage": 1.0,
+        "cloud_cover": 6.363225,
+        "item_ids": [
+          "S2B_T49RBN_20260721T033806_L2A",
+          "S2B_T48RYT_20260721T033806_L2A"
+        ]
+      },
+      {
+        "time": "2026-07-26T03:39:57.565000+00:00",
+        "phase": "AFTER EVENT",
+        "coverage": 1.0,
+        "cloud_cover": 34.370887,
+        "item_ids": [
+          "S2C_T49RBN_20260726T033935_L2A",
+          "S2C_T48RYT_20260726T033935_L2A"
+        ]
+      }
+    ],
+    "sar": []
+  },
+  "analysis": {
+    "spectral_indices": {
+      "ndwi": {
+        "before_mean": -0.23932550847530365,
+        "after_mean": -0.41032087802886963,
+        "change_mean": -0.17099536955356598,
+        "changed_pixels": 416772,
+        "changed_area_km2": 40.799445341908424
+      },
+      "mndwi": {
+        "before_mean": -0.13413293659687042,
+        "after_mean": -0.2616880536079407,
+        "change_mean": -0.12755513191223145,
+        "changed_pixels": 359000,
+        "changed_area_km2": 35.14391772418763
+      },
+      "bsi": {
+        "before_mean": -0.08951626718044281,
+        "after_mean": -0.12436424940824509,
+        "change_mean": -0.03484797105193138,
+        "changed_pixels": 45760,
+        "changed_area_km2": 4.479625835818457
+      },
+      "ndmi": {
+        "before_mean": 0.11556482315063477,
+        "after_mean": 0.17184220254421234,
+        "change_mean": 0.05627737566828728,
+        "changed_pixels": 95003,
+        "changed_area_km2": 9.300216199306398
+      },
+      "ndvi": {
+        "before_mean": 0.2874577045440674,
+        "after_mean": 0.4687775671482086,
+        "change_mean": 0.18131987750530243,
+        "changed_pixels": 418788,
+        "changed_area_km2": 40.99679948712281
+      },
+      "nbr": {
+        "before_mean": 0.25293827056884766,
+        "after_mean": 0.333065003156662,
+        "change_mean": 0.08012671768665314,
+        "changed_pixels": 260018,
+        "changed_area_km2": 25.454181612278045
+      }
+    },
+    "sar_backscatter": null
+  },
+  "outputs": {
+    "optical_natural_color_gif": "/Users/michellevia/signal-verification-outputs/hanjia-landslide-pengshui-county/optical-natural-color.gif",
+    "optical_contact_sheet": "/Users/michellevia/signal-verification-outputs/hanjia-landslide-pengshui-county/optical-contact-sheet.png",
+    "index_maps_dir": "/Users/michellevia/signal-verification-outputs/hanjia-landslide-pengshui-county/index-maps"
+  },
+  "summary": {
+    "verdict": "change_detected",
+    "confidence": "high",
+    "total_changed_pixels": 1595341,
+    "pixel_area_m2": 97.89392123729144
+  }
+}
